@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
   
   #local_host/name
-  get '/' do
+  get '/name' do
     "my name is anna"
   end
 
